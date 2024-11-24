@@ -10,7 +10,7 @@ import (
 
 func main() {
 	app := &cli.App{
-		Name:  "greet",
+		Name:  "blogbase",
 		Usage: "fight the loneliness!",
 		Action: func(*cli.Context) error {
 			fmt.Println("Hello friend!")
